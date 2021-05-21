@@ -1,2 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.custom-table tr {
+    border: none !important;
+}
+
+.custom-table th {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #f7f7f7;
+
+}
+
+.custom-table td {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: #ffffff;
+
+
+}
+
+.text-red {
+    color: #fd0054 !important;
+}
+
+.text-orange {
+    color: #f47560 !important;
+    &:hover {
+        color: white !important;
+    }
+}
+
+
+.border-orange {
+    border-color: #f47560 !important;
+    &:hover {
+        background-color: #f47560 !important;
+        color: white !important;
+    }
+}
+
+// /////////////////////
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+}
 
 @import "~bootstrap/scss/bootstrap";
